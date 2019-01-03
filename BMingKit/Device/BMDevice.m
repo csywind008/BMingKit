@@ -7,7 +7,6 @@
 //
 
 #import "BMDevice.h"
-#import <UIKit/UIKit.h>
 #import <sys/sysctl.h>
 #import <sys/utsname.h>
 
