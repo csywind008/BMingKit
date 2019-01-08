@@ -14,7 +14,6 @@
 		BCF44C9621DDEF720041D122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF44C9421DDEF720041D122 /* LaunchScreen.storyboard */; };
 		BCF44C9921DDEF720041D122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF44C9821DDEF720041D122 /* main.m */; };
 		BCF44CA321DDEF8F0041D122 /* BMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF44CA221DDEF8E0041D122 /* BMDevice.m */; };
-		BCF44CA621DE0D670041D122 /* UIButton+BMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF44CA521DE0D670041D122 /* UIButton+BMButton.m */; };
 		BCF44CAA21DEF30D0041D122 /* BMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF44CA921DEF30D0041D122 /* BMButton.m */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +30,6 @@
 		BCF44C9821DDEF720041D122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCF44CA121DDEF8E0041D122 /* BMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDevice.h; sourceTree = "<group>"; };
 		BCF44CA221DDEF8E0041D122 /* BMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDevice.m; sourceTree = "<group>"; };
-		BCF44CA421DE0D670041D122 /* UIButton+BMButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BMButton.h"; sourceTree = "<group>"; };
-		BCF44CA521DE0D670041D122 /* UIButton+BMButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BMButton.m"; sourceTree = "<group>"; };
 		BCF44CA821DEF30D0041D122 /* BMButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMButton.h; sourceTree = "<group>"; };
 		BCF44CA921DEF30D0041D122 /* BMButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,8 +100,6 @@
 		BCF44CA721DE0D6C0041D122 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BCF44CA421DE0D670041D122 /* UIButton+BMButton.h */,
-				BCF44CA521DE0D670041D122 /* UIButton+BMButton.m */,
 				BCF44CA821DEF30D0041D122 /* BMButton.h */,
 				BCF44CA921DEF30D0041D122 /* BMButton.m */,
 			);
@@ -182,7 +177,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF44CA321DDEF8F0041D122 /* BMDevice.m in Sources */,
-				BCF44CA621DE0D670041D122 /* UIButton+BMButton.m in Sources */,
 				BCF44C8E21DDEF710041D122 /* ViewController.m in Sources */,
 				BCF44C9921DDEF720041D122 /* main.m in Sources */,
 				BCF44CAA21DEF30D0041D122 /* BMButton.m in Sources */,
